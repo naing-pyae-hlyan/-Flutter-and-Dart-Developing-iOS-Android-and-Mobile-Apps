@@ -4,7 +4,8 @@
 
 ဤအပိုင်းသည် module တစ်ခုလုံးတွင် တွေ့ရမည့် အဓိကစကားလုံးများကို မြန်မာလို ရှင်းပြထားပါသည်။
 
-| စကားလုံး                | အဓိပ္ပါယ် |
+
+| Term                | Definition |
 |--------------------------|------------|
 | **Code reusability**     | တစ်ခုတည်းသော codebase နဲ့ iOS, Android, Web, Desktop အတွက် app တွေ တည်ဆောက်နိုင်ခြင်း။ React Native, Xamarin တို့မှာလည်း code ကို platform များစွာမှာ ပြန်သုံးနိုင်ပေမယ့်, platform-specific ပြင်ဆင်မှု လိုတတ်တယ်။ |
 | **Dart Analyzer**        | Dart code မှာ error, bug, coding style မမှန်တာတွေကို IDE (ဥပမာ VS Code) မှာ real-time feedback နဲ့ စစ်ပေးတဲ့ tool။ |
