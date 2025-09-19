@@ -1,0 +1,19 @@
+1. Welcome to implementing styles in Flutter. After watching this video, you'll be able to describe widgets. Discuss the significance of styling widgets, list the different styling options. Today, everybody uses apps everywhere. Styling an app, well is crucial. The app must have a visually appealing design and ensure easy navigation. The thoughtful application of styles helps users navigate the app easily, making their shopping experience more enjoyable and efficient. 
+
+
+2. You can achieve this by using the key feature in Flutter, which helps with styling widgets. In Flutter, every component is a widget, forming the fundamental elements of an app. Flutter offers multiple styling options such as built in and custom themes, and direct styling for individual widgets. Now, what are styles in Flutter? Styles change the appearance of widgets. You can apply style to text, buttons, backgrounds, and more. Styling widgets makes your app more visually appealing and can enhance the user experience. 
+
+
+3. To understand how styling works in Flutter, let's first explore how to style the basic text widget. Flutter widgets come with various built in properties that you can use to apply styles. Let's start with an example of a text and container widget. The text widget displays a string of text with a single style. In this example, the text style class applies font size, weight, and color styles to the text widget. Let's look at how to use themes to maintain consistent styling across different widgets. Flutter's theming capability for larger applications helps apply a consistent style across multiple widgets. 
+
+
+4. You can define global themes that apply styles to all widgets in your app. To define a global theme, you can use the theme data class. Here's an example. This example defines the global theme using theme data which sets the primary color and text styles. All text and raised button widgets will inherit these styles unless overridden locally. Next, let's explore how to style buttons specifically, which are integral to user interaction. Flutter provides several button widgets like ElevatedButton, TextButton, and OutlinedButton. 
+
+
+5. Here's an example of how to style an ElevatedButton. In this example, you can use the StyleFrom method to customize the buttons appearance. The Primary property sets the background color, OnPrimary sets the text color, and Padding adjusts the buttons padding. The textStyle property is used to style the text inside the button. Moving beyond individual widgets, let's explore how to incorporate custom fonts into your app. Custom fonts can add a unique touch to your app. To use a custom font, add it to your project and update the pubspec.yaml file. 
+
+
+6. Then add the font file to the assets fonts directory. In this example, a custom font is added to the project and used in the Apps theme. Now apply the custom font in your app. Finally, let's look at how you can customize container widgets to enhance layout and visual design. Containers are versatile widgets used to contain other widgets. You can customize containers using properties like padding, margin, decoration, and more. Here's an example of the same. 
+
+
+7. In this example, the container widget is used and customized with padding, margin, and BoxDecoration. The BoxDecoration class can set the background color, border radius, and box shadow. In this video, you learned that in Flutter, all components are widgets, forming the core elements of the app. Proper styling is essential for creating visually appealing and consistent user interfaces. Flutter offers styling through built in and custom themes and direct widget customization.
