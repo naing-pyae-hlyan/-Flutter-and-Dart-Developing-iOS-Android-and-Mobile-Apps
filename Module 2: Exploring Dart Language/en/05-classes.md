@@ -1,0 +1,35 @@
+1. Welcome to this video on Classes in Dart. After watching this video, you'll be able to identify and use classes to create reusable code and write complex applications. You'll also be able to use setters and getters, object properties, and anonymous functions to manage objects better. This video also explains several concepts such as methods, encapsulation, and inheritance to build robust object-oriented applications. Picture yourself as the designer of a custom guitar. You have a blueprint that outlines its shape, materials, and features. This blueprint is like a class in Dart programming.
+
+2. Any guitar built by you based on this blueprint is an object. Each guitar built from the blueprint can be slightly different, but they share the core characteristics defined by the blueprint. Similarly, in Dart, a class defines properties and behaviors while objects are specific instances created from that class, each with its unique state. Dart programming works with real-world entities, their data, and their behavior. When you program in Dart, real-world entities become objects, attributes represent data, and methods implement behavior. Classes are blueprints that define how an object will behave. Let's look at an example. 
+
+3. A pickup truck class can have properties like payload capacity, cargo bed size, towing capacity, and ground clearance. The class will also have methods like accelerate, start, and stop. You can create instances of the pickup truck class to showcase different vehicles and their specific attributes and actions. When you create a class with objects, you will also define access to an object's data. Do you want an external class to access your object? If yes, then you assign public property to it. If your object has sensitive information, you will assign it private properties. 
+
+
+4. Let's understand this better through this code. A class named Person has been defined for creating objects that represent people. The person's name and age have been declared public, and they can be accessed from outside the class. The person Social Security Number, or SSN, has been declared private and can only be accessed from within the class. An underscore is used to indicate a private property. Here, a constructor is defined to initialize public and private properties for the person object. Finally, the displayInfo method will retrieve and print the person's details. 
+
+
+5. The objects you create are lifeless without methods. Introduce methods in your class to define an object's behavior and actions. Here, a method named describe is defined to print a person's description. These code lines extend the person class to include a method named yearsUntilRetirement. This method calculates a person's years until they reach the retirement age of 65. Next, let's look at getters and setters, which control access to an object's properties. Getters, for example, perform calculations or formatting before retrieving the property's data. 
+
+
+6. Setters are used to validate input or trigger actions when a property's value is updated. Let's look at an example of a getter. Here, a getter named area is defined to calculate the area of a circle. Here's an example of a setter. First, a setter named width is declared and subjected to a conditional check. Next, a setter named height is declared and subjected to a conditional check. Both of these setters validate the width and height values before calculating the rectangle's area. 
+
+
+7. Static methods are unlike any methods explained till now because they do not belong to object instances. These methods are used for utility functions and don't require access to object-specific data. Examples of static methods include utility conversions and mathematical calculations. This code uses a static variable named pi and a static method named square. Both these entities belong to the Math class and are called without creating instances of the Math class. Next are anonymous functions, which are nameless functions utilized for one-time short operations. They offer much flexibility because they can be passed to other variables and functions. 
+
+
+8. You can use anonymous functions to write clean code for complex programs. Here, this block of code uses an anonymous function to print each item in the list. Imagine a secure treasure chest filled with the world's most valuable jewelry. The only way to access this chest is with a safely guarded key. This key is similar to the concept of encapsulation and protects contents from unauthorized access. The treasure chest is like a class's object, and the only way to interact with it is through methods such as getters and setters. Encapsulation will do an excellent job of protecting an object's data. 
+
+
+9. Let's explore encapsulation with a BankAccount class. This code focuses on restricting unauthorized access to sensitive data. Account number and balance are declared as private variables, preventing their modification or access from outside the class. Balance is a getter that provides access to the balance variable. Deposit is a setter that validates and allows deposits to the balance variable. Finally, the withdraw method checks for sufficient funds and performs withdrawal operations. You probably inherited several traits from your parents, and they have inherited traits from their parents. 
+
+
+10. That's how inheritance works in classes. A child class inherits behaviors and properties from a parent class. Animal is an example of a parent class with dog, cat, and horse being child classes. The child class will inherit properties like sleep and eat from the parent class. The child class will also have unique properties such as breed or lifespan. Adopt inheritance in your coding for hierarchical structure that helps organize complex code. It can also establish relationships between parent and child classes. 
+
+
+11. This code will help you understand inheritance better. First, a parent class named Animal is defined with a method named eat. Next, a child class named Dog is defined with a method named bark. Here, an instance of the dog class is created. Next, the inherited eat method is called from the Animal class. Finally, the bark method is called from the Dog class. In this video, you learned that classes are blueprints that define how an object will behave. 
+
+
+12. Public properties allow an external class to access your object while private properties protect sensitive information. Methods define an object's behavior and actions. You also learned that getters perform calculations or formatting. Setters validate input or trigger actions. Static methods do not belong to object instances and are used for utility functions. Anonymous functions are nameless functions utilized for one-time short operations. Encapsulation protects an object's data from unauthorized access. 
+
+
+13. Finally, you learned that inheritance ensures a hierarchical structure that helps organize complex code. 
